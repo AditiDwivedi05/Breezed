@@ -1,0 +1,481 @@
+.container {
+  max-width: 1160px; /*max width set karne se agear kisi aur system me open karte hai page to width itni fix hojati hai jitni max width hoti hai*/
+  margin: auto; /*div ko center karne ke liye*/
+  padding: 0 15px;
+}
+header {
+  position: absolute;
+  left: 50%; /*left se 50% baad start hoga header full width 100% hoti hai .*/
+  transform: translateX(
+    -50%
+  ); /*left se 50% baad header start hoga usko actualplace pe laane ke liye -50% lia hai taaki wo wapas container ki wisth ke beech me adjust ho paaye.*/
+}
+header .wrapper {
+  position: relative;
+}
+.left a {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.arrow-down {
+  transform: rotate(45deg);
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 2px;
+}
+.right li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 15px;
+}
+.header-main {
+  display: flex;
+  padding: 13px 0;
+}
+.right {
+  position: absolute;
+  top: 30px;
+  right: 110px;
+}
+/*header end*/
+/*banner start*/
+section.banner {
+  background-image: url(../images/background.jpg);
+}
+.section-main {
+  width: 1000px;
+  height: 100vh;
+  margin: auto;
+  position: relative; /*parent div ko position relative dete hai*/
+}
+.section-contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text {
+  color: white;
+  padding: 10px 0;
+}
+.text p {
+  font-size: 15px;
+  text-align: center;
+}
+.text h1 {
+  font-size: 40px;
+}
+.text p,
+.text h1 {
+  padding-bottom: 20px;
+}
+.button {
+  text-align: center;
+}
+.learn-more,
+.get-it-now {
+  padding: 9px 18px;
+  font-size: 13px;
+  border-radius: 20px;
+  margin: 0px 5px;
+}
+.learn-more {
+  border: white;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.get-it-now {
+  color: skyblue;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.fa fa-arrow-down {
+  color: white;
+}
+.green {
+  width: 50px;
+  color: white;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(111, 226, 111);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  border: none;
+  outline: none;
+}
+
+/*banner end*/
+/*about section start*/
+.breezed {
+  text-decoration: none;
+  color: skyblue;
+}
+.about-me {
+  background-color: white;
+}
+.about-left,
+.about-right {
+  width: 500px;
+}
+.top-notch,
+.robust,
+.reliable,
+.up-to-date {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fonts {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  padding: 22px 13px;
+}
+.images figure {
+  padding: 0 10px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 35px 0;
+}
+.main {
+  display: flex;
+  padding: 50px 0;
+}
+.text-para {
+  padding: 10px 10px;
+}
+.about-us {
+  color: green;
+  font-size: 20px;
+  padding-top: 60px;
+}
+pre {
+  margin: 103px 0;
+}
+.about-left h3 {
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 11px 0;
+}
+.talk {
+  text-decoration: none;
+  color: blue;
+}
+
+.about-right pre {
+  color: slategray;
+  line-height: 2;
+}
+.btn {
+  color: white;
+  font-size: 16px;
+  float: left;
+  cursor: pointer;
+  padding: 15px 27px;
+  border: none;
+  background-color: rgb(86, 197, 86);
+  border-radius: 27px;
+  margin: 20px 28px;
+}
+/*about section end*/
+/*initial section start*/
+.initial {
+  display: flex;
+  margin: 50px 0;
+}
+.initial p {
+  color: slategray;
+}
+.initial-work,
+.master-planning,
+.smooth-execution {
+  display: flex;
+}
+.initial-work h3,
+.master-planning h3,
+.smooth-execution h3 {
+  font-size: 17px;
+  padding: 20px 0px;
+}
+.initial-work figure,
+.master-planning figure,
+.smooth-execution figure {
+  padding: 53px 11px;
+  width: 140px;
+}
+.int-btn {
+  color: black;
+  font-size: 13px;
+  float: left;
+  padding: 10px 0px;
+  border: none;
+  background-color: white;
+  margin: 20px 0;
+}
+.para {
+  padding: 30px 15px;
+}
+.para p {
+  line-height: 2;
+}
+/*initial section end*/
+/*subscribe section start*/
+.section-third {
+  background: url(../images/slide-02.jpg);
+  margin: 20px 0;
+}
+.subscribe {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.third {
+  padding: 70px 0;
+}
+.subscribe p,
+.subscribe h3 {
+  color: white;
+}
+.subscribe p {
+  margin: 30px 0;
+}
+.subscribe h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.input-type-styling {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.input-style {
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 22px;
+  width: 450px;
+  background: transparent;
+  outline: none;
+}
+.input-type-styling ::placeholder {
+  color: white;
+}
+.third-para {
+  padding: 2px 125px;
+  line-height: 2;
+}
+
+.subscribe-btn {
+  background-color: white;
+  color: skyblue;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 29px;
+  margin: 0 32px;
+  cursor: pointer;
+}
+/*subscribe section end*/
+/*our project section start*/
+.projects {
+  margin: 85px 0;
+}
+.sidebar {
+  float: left;
+  width: 268px;
+  font-weight: bold;
+}
+.sidebar p {
+  color: rgb(119, 226, 119);
+}
+.sidebar h3 {
+  font-size: 35px;
+  color: black;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.projects-right {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+.projects-right img {
+  width: 263px;
+  height: 300px;
+  padding: 10px 10px;
+}
+.our-projects-all {
+  text-decoration: none;
+  color: gray;
+  display: block;
+  padding: 20px 0;
+}
+.all {
+  padding: 20px 0;
+}
+/*our project section end*/
+/*digital team start*/
+.digital {
+  padding: 80px 0;
+}
+.digital-team {
+  background: url(../images/background.jpg);
+}
+.digital-up {
+  text-align: center;
+  margin: 40px 0;
+}
+.digital-up h3 {
+  color: white;
+  font-size: 30px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.digital-up p {
+  color: white;
+  font-size: 20px;
+}
+.digital-img {
+  display: flex;
+  padding: 0 10px;
+}
+.digital-img img {
+  height: 400px;
+  width: 350px;
+  padding: 20px 10px;
+}
+.digital-img h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 7px 0;
+}
+.digital-img p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+/*digital team end*/
+/*contact us section start*/
+.contact {
+  margin: 50px 0;
+  display: flex;
+  background-image: url(../images/dotted-map-bg.png);
+}
+.contact-left {
+  width: 350px;
+}
+.contact-para {
+  color: green;
+  margin: 10px 0;
+}
+.contact-left h3 {
+  font-size: 30px;
+  color: gray;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.div-one,
+.div-two,
+.div-three {
+  display: flex;
+  padding: 14px 0;
+}
+.div-one p,
+.div-two p,
+.div-three p {
+  padding: 0 20px;
+}
+.contact-right {
+  margin: 44px 20px;
+}
+.input-first,
+.input-second {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  margin: 14px 0px;
+  padding: 10px 10px;
+  width: 400px;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+  appearance: none;
+}
+textarea {
+  width: 832px;
+}
+.send-msg {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(85, 199, 85);
+  border: 2px solid white;
+  border-radius: 22px;
+  font-size: 15px;
+  margin: 24px 0;
+}
+/*contact us end*/
+/*footer start*/
+footer {
+  background-image: url(../images/slide-01.jpg);
+  padding: 30px 0;
+}
+.footer-left p {
+  color: white;
+  padding: 10px 0;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.footer-right {
+  display: flex;
+}
+.follow-text {
+  color: white;
+  margin: 10px 10px;
+}
+.figure-style {
+  color: white;
+  padding: 0 10px;
+}
+.fa fa-facebook,
+.fa fa-twitter,
+.fa fa-linkedin-square,
+.fa fa-dribbble {
+  padding: 0 10px;
+}
+.fa-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  color: green;
+}
+.fa-btn:hover {
+  color: white;
+  background-color: green;
+}
+/*footer end*/
